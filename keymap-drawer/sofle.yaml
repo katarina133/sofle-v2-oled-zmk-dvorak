@@ -1,7 +1,66 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, '''', ',', ., P, Y, F, G, C, R, L, /, LEFT SHIFT, A, O, E, U, I, D, H, T, N, S, '-',
-    ESCAPE, ;, Q, J, K, X, MUTE, '', B, M, W, V, Z, \, LGUI, LEFT ALT, LEFT CONTROL, lower, RET, SPACE, raise, PRINTSCREEN, BACKSPACE, DELETE]
+  default:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - PRINTSCREEN
+  - TAB
+  - ''''
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - /
+  - LEFT SHIFT
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
+  - '-'
+  - ESCAPE
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - MUTE
+  - ''
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - \
+  - LGUI
+  - LEFT ALT
+  - LEFT CONTROL
+  - lower
+  - RET
+  - SPACE
+  - raise
+  - BACKSPACE
+  - DELETE
+  - {t: ▽, type: trans}
   lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
