@@ -75,10 +75,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CAPS
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - {t: ▽, type: trans}
+  - (
+  - )
+  - Alt+SPACE
   - {t: ▽, type: trans}
   - +
   - '7'
@@ -87,11 +87,11 @@ layers:
   - '*'
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - (
-  - )
-  - Alt+SPACE
-  - <
-  - '>'
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - {t: ▽, type: trans}
   - '-'
   - '4'
   - '5'
@@ -101,10 +101,10 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - {t: ▽, type: trans}
   - '{'
   - '}'
-  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '='
   - '1'
