@@ -55,10 +55,10 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - lower
-  - RET
+  - ENTER
+  - BACKSPACE
   - SPACE
   - raise
-  - BACKSPACE
   - RIGHT WIN
   - {t: QWETY, h: toggle}
   lower:
@@ -79,7 +79,7 @@ layers:
   - (
   - )
   - Alt+SPACE
-  - {t: ▽, type: trans}
+  - '['
   - +
   - '7'
   - '8'
@@ -87,11 +87,11 @@ layers:
   - '*'
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - BACKSPACE
+  - ENTER
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ']'
   - '-'
   - '4'
   - '5'
@@ -99,10 +99,10 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '{'
-  - '}'
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,8 +179,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
@@ -240,8 +240,8 @@ layers:
   - {type: held}
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   QWETY:
