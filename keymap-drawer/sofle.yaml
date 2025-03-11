@@ -53,9 +53,9 @@ layers:
   - \
   - {t: ▽, type: trans}
   - LEFT ALT
-  - LEFT CONTROL
-  - lower
   - LEFT SHIFT
+  - lower
+  - LCTRL
   - BACKSPACE
   - SPACE
   - raise
