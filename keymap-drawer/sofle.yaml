@@ -123,18 +123,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   lower:
-  - ''
+  - '&sys_reset'
   - F1
   - F2
   - F3
   - F4
   - F5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&sys_reset'
-  - '&bootloader'
-  - ''
-  - ''
-  - ''
-  - ''
   - CAPS
   - ''
   - ''
@@ -159,7 +159,7 @@ layers:
   - '6'
   - /
   - ''
-  - ''
+  - '&bootloader'
   - ''
   - ''
   - '&msc SCRL_UP'
@@ -172,14 +172,14 @@ layers:
   - '2'
   - '3'
   - .
-  - ''
+  - '&bootloader'
   - ''
   - LEFT ALT
   - LEFT CONTROL
   - {type: held}
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - '0'
   - ''
   - ''
@@ -237,10 +237,10 @@ layers:
   - ''
   - LEFT ALT
   - LEFT CONTROL
+  - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - ''
