@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define BASE 0
@@ -22,8 +23,8 @@
         compatible = "zmk,conditional-layers";
 
         adjust_layer {
-            if-layers = <LOWER RAISE>;
-            then-layer = <ADJUST>;
+            if-layers = <2 3>;
+            then-layer = <4>;
         };
     };
 
@@ -45,12 +46,27 @@
 &kp TAB    &kp B            &kp L        &kp D         &kp C           &kp V                                     &kp J      &kp F          &kp O          &kp U                 &kp COMMA              &kp MINUS
 &kp ENTER  &kp N            &kp R        &kp T         &kp S           &kp G                                     &kp Y      &kp H          &kp A          &kp E                 &kp I                  &kp SLASH
 &kp DEL    &kp X            &kp Q        &kp M         &kp W           &kp Z        &kp C_MUTE    &none          &kp K      &kp P          &kp SQT        &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
-                            &trans       &kp LEFT_ALT  &kp LEFT_SHIFT  &mo LOWER    &kp LCTRL     &kp BACKSPACE  &kp SPACE  &mo 2          &kp RIGHT_WIN  &tog 4
+                            &trans       &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 2        &kp LCTRL     &kp BACKSPACE  &kp SPACE  &mo 3          &kp RIGHT_WIN  &tog 1
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
                 <&inc_dec_kp PG_UP PG_DN>;
+        };
+
+        QWETY_layer {
+            bindings = <
+&kp CAPS   &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                           &kp N6  &kp N7         &kp N8     &kp N9   &kp N0    &kp BSPC
+&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T                            &kp Y   &kp U          &kp I      &kp O    &kp P     &kp LBKT
+&kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G                            &kp H   &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
+&kp ESC    &kp Z   &kp X     &kp C     &kp V      &kp B   &kp C_MUTE    &trans     &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
+                   &kp LGUI  &kp LALT  &kp LCTRL  &mo 2   &kp ENTER     &kp SPACE  &mo 3   &kp BACKSPACE  &trans     &trans
+            >;
+
+            label = "QWETY";
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp PG_DN PG_UP>;
         };
 
         lower_layer {
@@ -65,11 +81,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0   &bt BT_SEL 1          &bt BT_SEL 2           &bt BT_SEL 3      &bt BT_SEL 4                         &trans     &trans        &trans        &trans        &trans        &trans
-&kp CAPS        &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(SPACE)     &kp LEFT_BRACKET                     &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
-&kp LEFT_SHIFT  &kp BACKSPACE  &kp ENTER             &trans                 &trans            &kp RIGHT_BRACKET                    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &trans
-&trans          &kp LC(Z)      &kp LC(X)             &kp LC(C)              &kp LC(V)         &trans             &trans    &trans  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans
-                               &trans                &kp LEFT_ALT           &kp LEFT_CONTROL  &trans             &trans    &trans  &trans     &kp N0        &trans        &trans
+&none           &kp F1                &kp F2                 &kp F3        &kp F4            &kp F5                             &sys_reset  &bootloader   &none         &none         &none         &none
+&kp CAPS        &none                 &none                  &none         &kp LA(SPACE)     &kp LEFT_BRACKET                   &kp PLUS    &kp N7        &kp N8        &kp N9        &kp ASTERISK  &none
+&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mkp MB1      &mkp MB2          &kp RIGHT_BRACKET                  &kp MINUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &none
+&none           &none                 &none                  &msc SCRL_UP  &msc SCRL_DOWN    &none              &none    &none  &kp EQUAL   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &none
+                                      &none                  &kp LEFT_ALT  &kp LEFT_CONTROL  &none              &none    &none  &none       &kp N0        &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -86,11 +102,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans          &kp F1    &kp F2  &kp F3        &kp F4            &kp F5                           &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&trans          &kp HOME  &kp F7  &kp F8        &kp F9            &kp PAGE_UP                      &trans  &trans    &kp UP    &trans     &trans   &kp F12
-&kp LEFT_SHIFT  &kp END   &kp F4  &kp F5        &kp F6            &kp PAGE_DOWN                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ESC  &trans
-&trans          &trans    &kp F1  &kp F2        &kp F3            &trans         &trans    &trans  &trans  &trans    &trans    &trans     &trans   &trans
-                          &trans  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans         &trans    &trans  &trans  &trans    &trans    &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4                   &none  &none     &none     &none      &none    &none
+&none           &kp HOME      &kp F7        &kp F8        &kp F9            &kp PAGE_UP                    &none  &none     &kp UP    &none      &none    &none
+&kp LEFT_SHIFT  &kp END       &kp F4        &kp F5        &kp F6            &kp PAGE_DOWN                  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ESC  &none
+&none           &none         &kp F1        &kp F2        &kp F3            &none          &none    &none  &none  &none     &none     &none      &none    &none
+                              &none         &kp LEFT_ALT  &kp LEFT_CONTROL  &none          &none    &none  &none  &none     &none     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -112,21 +128,6 @@
 &none              &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &none
                                     &none            &none            &none            &none            &none              &none  &none  &none  &none  &none
             >;
-        };
-
-        QWETY_layer {
-            bindings = <
-&kp CAPS   &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                           &kp N6  &kp N7         &kp N8     &kp N9   &kp N0    &kp BSPC
-&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T                            &kp Y   &kp U          &kp I      &kp O    &kp P     &kp LBKT
-&kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G                            &kp H   &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
-&kp ESC    &kp Z   &kp X     &kp C     &kp V      &kp B   &kp C_MUTE    &trans     &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-                   &kp LGUI  &kp LALT  &kp LCTRL  &mo 1   &kp ENTER     &kp SPACE  &mo 2   &kp BACKSPACE  &trans     &trans
-            >;
-
-            label = "QWETY";
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp PG_DN PG_UP>;
         };
     };
 };
