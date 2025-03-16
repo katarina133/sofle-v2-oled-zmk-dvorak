@@ -45,7 +45,7 @@
 &kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR      &kp PERCENT                               &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
 &kp TAB    &kp B            &kp L         &kp D         &kp C           &kp V                                     &kp J      &kp F          &kp O          &kp U                 &kp COMMA              &kp MINUS
 &kp ENTER  &kp N            &kp R         &kp T         &kp S           &kp G                                     &kp Y      &kp H          &kp A          &kp E                 &kp I                  &kp SLASH
-&kp DEL    &kp X            &kp Q         &kp M         &kp W           &kp Z        &kp C_MUTE    &none          &kp K      &kp P          &kp SQT        &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
+&kp DEL    &kp X            &kp Q         &kp M         &kp W           &kp Z        &kp K_MUTE    &none          &kp K      &kp P          &kp SQT        &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
                             &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 2        &kp LCTRL     &kp BACKSPACE  &kp SPACE  &mo 3          &kp RIGHT_WIN  &tog 1
             >;
 
