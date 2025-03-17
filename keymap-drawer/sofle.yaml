@@ -13,7 +13,7 @@ layers:
   - (
   - )
   - PRINTSCREEN
-  - TAB
+  - ''
   - B
   - L
   - D
@@ -25,7 +25,7 @@ layers:
   - U
   - ','
   - '-'
-  - ENTER
+  - DEL
   - N
   - R
   - T
@@ -37,7 +37,7 @@ layers:
   - E
   - I
   - /
-  - DEL
+  - ''
   - X
   - Q
   - M
@@ -51,15 +51,15 @@ layers:
   - ;
   - .
   - \
-  - LEFT GUI
-  - LEFT ALT
+  - ''
+  - ''
   - LEFT SHIFT
   - lower
-  - LCTRL
-  - BACKSPACE
+  - TAB
+  - LEFT GUI
   - SPACE
   - raise
-  - RIGHT WIN
+  - ''
   - {t: QWETY, h: toggle}
   QWETY:
   - CAPS
@@ -305,3 +305,16 @@ layers:
   - {type: held}
   - ''
   - ''
+combos:
+- p: [25, 26]
+  k: LCTRL
+- p: [34, 33]
+  k: RCTRL
+- p: [25, 27]
+  k: LEFT ALT
+- p: [34, 32]
+  k: RIGHT ALT
+- p: [25, 28]
+  k: RET
+- p: [34, 31]
+  k: BACKSPACE
