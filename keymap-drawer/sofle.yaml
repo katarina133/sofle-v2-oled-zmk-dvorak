@@ -135,7 +135,7 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - CAPS
+  - ''
   - '&mkp MB1'
   - '&mkp MB2'
   - ESC
@@ -147,7 +147,7 @@ layers:
   - '9'
   - '*'
   - ''
-  - LEFT SHIFT
+  - CAPS
   - (
   - )
   - RET
@@ -174,7 +174,7 @@ layers:
   - .
   - '&bootloader'
   - ''
-  - LEFT ALT
+  - ''
   - LEFT CONTROL
   - {type: held}
   - ''
