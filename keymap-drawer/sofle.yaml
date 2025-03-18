@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
   default:
   - '`'
@@ -136,12 +136,12 @@ layers:
   - ''
   - '&sys_reset'
   - CAPS
-  - ''
-  - ''
-  - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - ESC
   - Alt+SPACE
   - '['
-  - +
+  - KP PLUS
   - '7'
   - '8'
   - '9'
@@ -150,8 +150,8 @@ layers:
   - LEFT SHIFT
   - (
   - )
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - RET
+  - BACKSPACE
   - ']'
   - '-'
   - '4'
@@ -184,18 +184,18 @@ layers:
   - ''
   - ''
   raise:
+  - ''
+  - ''
+  - F10
+  - F11
+  - F12
+  - ''
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - HOME
   - F7
@@ -218,7 +218,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - ESC
+  - ''
   - ''
   - ''
   - ''
@@ -314,7 +314,3 @@ combos:
   k: LEFT ALT
 - p: [34, 32]
   k: RIGHT ALT
-- p: [25, 28]
-  k: RET
-- p: [34, 31]
-  k: BACKSPACE
