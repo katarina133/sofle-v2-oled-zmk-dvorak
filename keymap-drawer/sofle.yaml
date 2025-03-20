@@ -136,11 +136,11 @@ layers:
   - ''
   - '&sys_reset'
   - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - '['
+  - ']'
   - ESC
   - Alt+SPACE
-  - '['
+  - ''
   - KP PLUS
   - '7'
   - '8'
@@ -152,7 +152,7 @@ layers:
   - )
   - RET
   - BACKSPACE
-  - ']'
+  - ''
   - '-'
   - '4'
   - '5'
@@ -160,8 +160,8 @@ layers:
   - /
   - ''
   - '&bootloader'
-  - ''
-  - ''
+  - '{'
+  - '}'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - ''
