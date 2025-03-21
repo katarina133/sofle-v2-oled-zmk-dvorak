@@ -26,16 +26,16 @@ layers:
   - ','
   - '-'
   - DEL
-  - N
-  - R
+  - {t: N, h: LCTRL}
+  - {t: R, h: LEFT ALT}
   - T
   - S
   - G
   - Y
   - H
   - A
-  - E
-  - I
+  - {t: E, h: RIGHT ALT}
+  - {t: I, h: RCTRL}
   - /
   - ''
   - X
@@ -305,12 +305,3 @@ layers:
   - {type: held}
   - ''
   - ''
-combos:
-- p: [25, 26]
-  k: LCTRL
-- p: [34, 33]
-  k: RCTRL
-- p: [25, 27]
-  k: LEFT ALT
-- p: [34, 32]
-  k: RIGHT ALT
