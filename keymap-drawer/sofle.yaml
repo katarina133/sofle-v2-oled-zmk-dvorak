@@ -138,8 +138,8 @@ layers:
   - ''
   - '['
   - ']'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - ESC
+  - Alt+SPACE
   - ''
   - KP PLUS
   - '7'
