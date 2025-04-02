@@ -13,7 +13,7 @@ layers:
   - (
   - )
   - PRINTSCREEN
-  - TAB
+  - ''
   - B
   - L
   - {t: D, h: '['}
@@ -53,9 +53,9 @@ layers:
   - \
   - ''
   - ''
-  - {t: ENTER, h: LEFT SHIFT}
-  - {t: SPACE, h: lower}
-  - {t: BACKSPACE, h: One_Hand}
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: lower, h: One_Hand}
+  - TAB
   - LEFT GUI
   - SPACE
   - raise
@@ -115,8 +115,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
