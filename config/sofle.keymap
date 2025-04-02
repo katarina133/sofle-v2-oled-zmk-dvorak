@@ -55,6 +55,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        hold_tap_toggle: hold_tap_toggle {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_TOGGLE";
+            bindings = <&mo>, <&tog>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -71,11 +80,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE         &kp EXCLAMATION  &kp AT_SIGN     &kp HASH                &kp DOLLAR               &kp PERCENT                                                           &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
-&kp TAB           &kp B            &kp L           &mt LEFT_BRACKET D      &mt RIGHT_BRACKET C      &kp V                                                                 &kp J      &kp F          &kp O         &kp U                 &kp COMMA              &kp MINUS
-&mt LCTRL DELETE  &mt LCTRL N      &mt LEFT_ALT R  &mt LEFT_PARENTHESIS T  &mt RIGHT_PARENTHESIS S  &kp G                                                                 &kp Y      &kp H          &kp A         &mt RIGHT_ALT E       &mt RCTRL I            &kp SLASH
-&none             &kp X            &kp Q           &mt LEFT_BRACE M        &mt RIGHT_BRACE W        &kp Z                    &kp K_MUTE                     &none         &kp K      &kp P          &kp SQT       &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
-                                   &none           &none                   &mt LEFT_SHIFT ENTER     &hold_tap_layer 3 SPACE  &hold_tap_layer 1 BACKSPACE    &kp LEFT_GUI  &kp SPACE  &mo 4          &none         &tog 2
+&kp GRAVE         &kp EXCLAMATION  &kp AT_SIGN     &kp HASH                &kp DOLLAR               &kp PERCENT                                       &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
+&none             &kp B            &kp L           &mt LEFT_BRACKET D      &mt RIGHT_BRACKET C      &kp V                                             &kp J      &kp F          &kp O         &kp U                 &kp COMMA              &kp MINUS
+&mt LCTRL DELETE  &mt LCTRL N      &mt LEFT_ALT R  &mt LEFT_PARENTHESIS T  &mt RIGHT_PARENTHESIS S  &kp G                                             &kp Y      &kp H          &kp A         &mt RIGHT_ALT E       &mt RCTRL I            &kp SLASH
+&none             &kp X            &kp Q           &mt LEFT_BRACE M        &mt RIGHT_BRACE W        &kp Z                 &kp K_MUTE    &none         &kp K      &kp P          &kp SQT       &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
+                                   &none           &none                   &mt LEFT_SHIFT SPACE     &hold_tap_toggle 1 3  &kp TAB       &kp LEFT_GUI  &kp SPACE  &mo 4          &none         &tog 2
             >;
 
             sensor-bindings =
