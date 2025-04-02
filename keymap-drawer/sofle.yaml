@@ -236,7 +236,7 @@ layers:
   - '&bootloader'
   - ''
   - ''
-  - LEFT SHIFT
+  - {t: '0', h: ','}
   - {type: held}
   - ''
   - ''
@@ -368,8 +368,10 @@ layers:
   - ''
 combos:
 - p: [27, 28]
-  k: ESC
+  k: ENTER
 - p: [25, 26]
   k: BACKSPACE
 - p: [26, 27]
-  k: ENTER
+  k: ESCAPE
+- p: [14, 15]
+  k: ','
