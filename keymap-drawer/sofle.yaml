@@ -13,11 +13,11 @@ layers:
   - (
   - )
   - PRINTSCREEN
-  - ''
+  - TAB
   - B
   - L
-  - D
-  - C
+  - {t: D, h: '['}
+  - {t: C, h: ']'}
   - V
   - J
   - F
@@ -25,11 +25,11 @@ layers:
   - U
   - ','
   - '-'
-  - DEL
+  - {t: DELETE, h: LCTRL}
   - {t: N, h: LCTRL}
   - {t: R, h: LEFT ALT}
-  - T
-  - S
+  - {t: T, h: (}
+  - {t: S, h: )}
   - G
   - Y
   - H
@@ -40,8 +40,8 @@ layers:
   - ''
   - X
   - Q
-  - M
-  - W
+  - {t: M, h: '{'}
+  - {t: W, h: '}'}
   - Z
   - MUTE
   - ''
@@ -53,14 +53,75 @@ layers:
   - \
   - ''
   - ''
-  - LEFT SHIFT
-  - lower
-  - TAB
+  - {t: ENTER, h: LEFT SHIFT}
+  - {t: SPACE, h: lower}
+  - {t: BACKSPACE, h: One_Hand}
   - LEFT GUI
   - SPACE
   - raise
   - ''
   - {t: QWETY, h: toggle}
+  One_Hand:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - U
+  - O
+  - F
+  - J
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: I, h: LCTRL}
+  - {t: E, h: LEFT ALT}
+  - {t: A, h: LCTRL}
+  - H
+  - Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
+  - ;
+  - ''''
+  - P
+  - K
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   QWETY:
   - CAPS
   - '1'
@@ -136,11 +197,11 @@ layers:
   - ''
   - '&sys_reset'
   - ''
-  - '['
-  - ']'
-  - ESC
-  - Alt+SPACE
-  - ''
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
+  - '*'
   - KP PLUS
   - KP 7
   - KP 8
@@ -148,11 +209,11 @@ layers:
   - '*'
   - ''
   - CAPS
-  - {t: (, h: LCTRL}
-  - {t: ), h: LEFT ALT}
-  - RET
-  - BACKSPACE
-  - ''
+  - {t: '-', h: LCTRL}
+  - {t: '4', h: LEFT ALT}
+  - '5'
+  - '6'
+  - KP DIVIDE
   - '-'
   - KP 4
   - KP 5
@@ -160,10 +221,10 @@ layers:
   - {t: /, h: RCTRL}
   - ''
   - '&bootloader'
-  - '{'
-  - '}'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - '='
+  - '1'
+  - '2'
+  - '3'
   - ''
   - ''
   - ''
@@ -175,7 +236,7 @@ layers:
   - '&bootloader'
   - ''
   - ''
-  - LEFT CONTROL
+  - LEFT SHIFT
   - {type: held}
   - ''
   - ''
@@ -309,4 +370,6 @@ combos:
 - p: [27, 28]
   k: ESC
 - p: [25, 26]
-  k: Alt+SPACE
+  k: BACKSPACE
+- p: [26, 27]
+  k: ENTER
