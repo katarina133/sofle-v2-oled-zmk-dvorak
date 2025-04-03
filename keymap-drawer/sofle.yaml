@@ -55,7 +55,7 @@ layers:
   - ''
   - {t: SPACE, h: ultility}
   - {t: lower, h: One_Hand}
-  - BACKSPACE
+  - PRINTSCREEN
   - LEFT GUI
   - SPACE
   - raise
@@ -431,8 +431,14 @@ combos:
 - p: [27, 28]
   k: ENTER
 - p: [25, 26]
-  k: BACKSPACE
+  k: ESC
 - p: [26, 27]
-  k: ESCAPE
+  k: BACKSPACE
 - p: [14, 15]
   k: ','
+- p: [15, 16]
+  k: ;
+- p: [38, 39]
+  k: (
+- p: [39, 40]
+  k: )
