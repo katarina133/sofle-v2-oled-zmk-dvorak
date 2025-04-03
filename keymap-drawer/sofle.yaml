@@ -13,7 +13,7 @@ layers:
   - (
   - )
   - PRINTSCREEN
-  - ''
+  - TAB
   - {t: B, h: '['}
   - {t: L, h: ']'}
   - {t: D, h: '&msc SCRL_UP'}
@@ -28,8 +28,8 @@ layers:
   - {t: DELETE, h: LCTRL}
   - {t: N, h: LCTRL}
   - {t: R, h: LEFT ALT}
-  - {t: T, h: (}
-  - {t: S, h: )}
+  - {t: T, h: LEFT SHIFT}
+  - {t: S, h: LEFT SHIFT}
   - G
   - Y
   - H
@@ -40,8 +40,8 @@ layers:
   - ''
   - {t: Q, h: '{'}
   - {t: X, h: '}'}
-  - M
-  - W
+  - {t: M, h: (}
+  - {t: W, h: )}
   - Z
   - MUTE
   - ''
@@ -53,9 +53,9 @@ layers:
   - \
   - ''
   - ''
-  - {t: SPACE, h: LEFT SHIFT}
+  - {t: SPACE, h: ultility}
   - {t: lower, h: One_Hand}
-  - {t: TAB, h: ultility}
+  - BACKSPACE
   - LEFT GUI
   - SPACE
   - raise
@@ -86,11 +86,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: /, h: LEFT SHIFT}
+  - {t: /, h: LCTRL}
   - {t: I, h: LCTRL}
   - {t: E, h: LEFT ALT}
-  - {t: A, h: LCTRL}
-  - H
+  - {t: A, h: LEFT SHIFT}
+  - {t: H, h: LEFT SHIFT}
   - Y
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: RIGHT SHIFT}
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,9 +236,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
