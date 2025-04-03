@@ -223,8 +223,8 @@ layers:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -436,7 +436,3 @@ combos:
   k: ESCAPE
 - p: [14, 15]
   k: ','
-- p: [37, 38]
-  k: '&mkp MB1'
-- p: [39, 40]
-  k: '&mkp MB2'
