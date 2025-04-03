@@ -14,8 +14,8 @@ layers:
   - )
   - PRINTSCREEN
   - ''
-  - B
-  - L
+  - {t: B, h: '&msc SCRL_UP'}
+  - {t: L, h: '&msc SCRL_DOWN'}
   - {t: D, h: '['}
   - {t: C, h: ']'}
   - V
@@ -38,8 +38,8 @@ layers:
   - {t: I, h: RCTRL}
   - /
   - ''
-  - X
-  - Q
+  - {t: Q, h: '&msc SCRL_LEFT'}
+  - {t: X, h: '&msc SCRL_RIGHT'}
   - {t: M, h: '{'}
   - {t: W, h: '}'}
   - Z
@@ -55,7 +55,7 @@ layers:
   - ''
   - {t: SPACE, h: LEFT SHIFT}
   - {t: lower, h: One_Hand}
-  - TAB
+  - {t: TAB, h: ultility}
   - LEFT GUI
   - SPACE
   - raise
@@ -63,18 +63,18 @@ layers:
   - {t: QWETY, h: toggle}
   One_Hand:
   - {t: ▽, type: trans}
+  - (
+  - )
+  - '*'
+  - '&'
+  - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - ','
   - U
   - O
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - {t: /, h: LEFT SHIFT}
   - {t: I, h: LCTRL}
   - {t: E, h: LEFT ALT}
   - {t: A, h: LCTRL}
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
   - .
   - ;
   - ''''
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: SPACE, h: RIGHT SHIFT}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,6 +183,67 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  ultility:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   lower:
   - '&sys_reset'
   - F1
@@ -202,23 +263,23 @@ layers:
   - '8'
   - '9'
   - '*'
-  - KP PLUS
-  - KP 7
-  - KP 8
-  - KP 9
-  - '*'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - CAPS
-  - {t: '-', h: LCTRL}
-  - {t: '4', h: LEFT ALT}
+  - '-'
+  - '4'
   - '5'
   - '6'
   - KP DIVIDE
-  - '-'
-  - KP 4
-  - KP 5
-  - {t: '6', h: RIGHT ALT}
-  - {t: /, h: RCTRL}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - '&bootloader'
   - '='
@@ -228,11 +289,11 @@ layers:
   - ''
   - ''
   - ''
-  - '='
-  - KP 1
-  - KP 2
-  - KP 3
-  - .
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&bootloader'
   - ''
   - ''
@@ -241,7 +302,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - KP 0
+  - ''
   - ''
   - ''
   raise:
