@@ -52,6 +52,16 @@
             bindings = <&kp COMMA>;
             key-positions = <14 15>;
         };
+
+        MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <37 38>;
+        };
+
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <39 40>;
+        };
     };
 
     behaviors {
@@ -97,11 +107,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE         &kp EXCLAMATION               &kp AT_SIGN                    &kp HASH                &kp DOLLAR               &kp PERCENT                                                  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
-&none             &hold_tap_scroll SCRL_UP B    &hold_tap_scroll SCRL_DOWN L   &mt LEFT_BRACKET D      &mt RIGHT_BRACKET C      &kp V                                                        &kp J      &kp F          &kp O         &kp U                 &kp COMMA              &kp MINUS
-&mt LCTRL DELETE  &mt LCTRL N                   &mt LEFT_ALT R                 &mt LEFT_PARENTHESIS T  &mt RIGHT_PARENTHESIS S  &kp G                                                        &kp Y      &kp H          &kp A         &mt RIGHT_ALT E       &mt RCTRL I            &kp SLASH
-&none             &hold_tap_scroll SCRL_LEFT Q  &hold_tap_scroll SCRL_RIGHT X  &mt LEFT_BRACE M        &mt RIGHT_BRACE W        &kp Z                 &kp K_MUTE               &none         &kp K      &kp P          &kp SQT       &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
-                                                &none                          &none                   &mt LEFT_SHIFT SPACE     &hold_tap_toggle 1 4  &hold_tap_layer 3 TAB    &kp LEFT_GUI  &kp SPACE  &mo 5          &none         &tog 2
+&kp GRAVE         &kp EXCLAMATION     &kp AT_SIGN          &kp HASH                    &kp DOLLAR                    &kp PERCENT                                                  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
+&none             &mt LEFT_BRACKET B  &mt RIGHT_BRACKET L  &hold_tap_scroll SCRL_UP D  &hold_tap_scroll SCRL_DOWN C  &kp V                                                        &kp J      &kp F          &kp O         &kp U                 &kp COMMA              &kp MINUS
+&mt LCTRL DELETE  &mt LCTRL N         &mt LEFT_ALT R       &mt LEFT_PARENTHESIS T      &mt RIGHT_PARENTHESIS S       &kp G                                                        &kp Y      &kp H          &kp A         &mt RIGHT_ALT E       &mt RCTRL I            &kp SLASH
+&none             &mt LEFT_BRACE Q    &mt RIGHT_BRACE X    &kp M                       &kp W                         &kp Z                 &kp K_MUTE               &none         &kp K      &kp P          &kp SQT       &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
+                                      &none                &none                       &mt LEFT_SHIFT SPACE          &hold_tap_toggle 1 4  &hold_tap_layer 3 TAB    &kp LEFT_GUI  &kp SPACE  &mo 5          &none         &tog 2
             >;
 
             sensor-bindings =
