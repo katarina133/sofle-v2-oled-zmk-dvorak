@@ -38,19 +38,34 @@
             key-positions = <27 28>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
+        esc {
+            bindings = <&kp ESC>;
             key-positions = <25 26>;
         };
 
-        esc {
-            bindings = <&kp ESCAPE>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <26 27>;
         };
 
         comma {
             bindings = <&kp COMMA>;
             key-positions = <14 15>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <15 16>;
+        };
+
+        n {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <38 39>;
+        };
+
+        r {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <39 40>;
         };
     };
 
@@ -97,11 +112,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE         &kp EXCLAMATION     &kp AT_SIGN          &kp HASH                    &kp DOLLAR                    &kp PERCENT                                          &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
-&kp TAB           &mt LEFT_BRACKET B  &mt RIGHT_BRACKET L  &hold_tap_scroll SCRL_UP D  &hold_tap_scroll SCRL_DOWN C  &kp V                                                &kp J      &kp F          &kp O         &kp U                 &kp COMMA              &kp MINUS
-&mt LCTRL DELETE  &mt LCTRL N         &mt LEFT_ALT R       &mt LEFT_SHIFT T            &mt LEFT_SHIFT S              &kp G                                                &kp Y      &kp H          &kp A         &mt RIGHT_ALT E       &mt RCTRL I            &kp SLASH
-&none             &mt LEFT_BRACE Q    &mt RIGHT_BRACE X    &mt LEFT_PARENTHESIS M      &mt RIGHT_PARENTHESIS W       &kp Z                 &kp K_MUTE       &none         &kp K      &kp P          &kp SQT       &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
-                                      &none                &none                       &hold_tap_layer 3 SPACE       &hold_tap_toggle 1 4  &kp BACKSPACE    &kp LEFT_GUI  &kp SPACE  &mo 5          &none         &tog 2
+&kp GRAVE         &kp EXCLAMATION     &kp AT_SIGN          &kp HASH                    &kp DOLLAR                    &kp PERCENT                                            &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
+&kp TAB           &mt LEFT_BRACKET B  &mt RIGHT_BRACKET L  &hold_tap_scroll SCRL_UP D  &hold_tap_scroll SCRL_DOWN C  &kp V                                                  &kp J      &kp F          &kp O         &kp U                 &kp COMMA              &kp MINUS
+&mt LCTRL DELETE  &mt LCTRL N         &mt LEFT_ALT R       &mt LEFT_SHIFT T            &mt LEFT_SHIFT S              &kp G                                                  &kp Y      &kp H          &kp A         &mt RIGHT_ALT E       &mt RCTRL I            &kp SLASH
+&none             &mt LEFT_BRACE Q    &mt RIGHT_BRACE X    &mt LEFT_PARENTHESIS M      &mt RIGHT_PARENTHESIS W       &kp Z                 &kp K_MUTE         &none         &kp K      &kp P          &kp SQT       &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
+                                      &none                &none                       &hold_tap_layer 3 SPACE       &hold_tap_toggle 1 4  &kp PRINTSCREEN    &kp LEFT_GUI  &kp SPACE  &mo 5          &none         &tog 2
             >;
 
             sensor-bindings =
