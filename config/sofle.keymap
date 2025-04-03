@@ -52,16 +52,6 @@
             bindings = <&kp COMMA>;
             key-positions = <14 15>;
         };
-
-        MB1 {
-            bindings = <&mkp MB1>;
-            key-positions = <37 38>;
-        };
-
-        MB2 {
-            bindings = <&mkp MB2>;
-            key-positions = <39 40>;
-        };
     };
 
     behaviors {
@@ -151,7 +141,7 @@
 &trans  &kp F6           &kp F7        &kp F8        &kp F9     &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F11          &kp F12       &kp UP_ARROW  &kp LEFT   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_SHIFT   &kp LCTRL     &kp DOWN      &kp RIGHT  &none                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PRINTSCREEN  &kp LEFT_ALT  &trans        &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PRINTSCREEN  &kp LEFT_ALT  &mkp MB1      &mkp MB2   &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                          &trans        &trans        &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
