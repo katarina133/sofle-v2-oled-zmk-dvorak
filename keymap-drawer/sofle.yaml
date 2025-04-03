@@ -14,10 +14,10 @@ layers:
   - )
   - PRINTSCREEN
   - ''
-  - {t: B, h: '&msc SCRL_UP'}
-  - {t: L, h: '&msc SCRL_DOWN'}
-  - {t: D, h: '['}
-  - {t: C, h: ']'}
+  - {t: B, h: '['}
+  - {t: L, h: ']'}
+  - {t: D, h: '&msc SCRL_UP'}
+  - {t: C, h: '&msc SCRL_DOWN'}
   - V
   - J
   - F
@@ -38,10 +38,10 @@ layers:
   - {t: I, h: RCTRL}
   - /
   - ''
-  - {t: Q, h: '&msc SCRL_LEFT'}
-  - {t: X, h: '&msc SCRL_RIGHT'}
-  - {t: M, h: '{'}
-  - {t: W, h: '}'}
+  - {t: Q, h: '{'}
+  - {t: X, h: '}'}
+  - M
+  - W
   - Z
   - MUTE
   - ''
@@ -436,3 +436,7 @@ combos:
   k: ESCAPE
 - p: [14, 15]
   k: ','
+- p: [37, 38]
+  k: '&mkp MB1'
+- p: [39, 40]
+  k: '&mkp MB2'
