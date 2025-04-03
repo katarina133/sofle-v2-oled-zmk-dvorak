@@ -138,11 +138,11 @@
 
         ultility_layer {
             bindings = <
-&trans  &kp F6   &kp F7    &kp F8        &kp F9     &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F11  &kp F12   &kp UP_ARROW  &trans     &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &kp LEFT  &kp DOWN      &kp RIGHT  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans    &trans        &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                 &trans    &trans        &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6           &kp F7        &kp F8        &kp F9     &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F11          &kp F12       &kp UP_ARROW  &kp LEFT   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT   &kp LCTRL     &kp DOWN      &kp RIGHT  &none                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PRINTSCREEN  &kp LEFT_ALT  &trans        &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans        &trans        &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "ultility";
