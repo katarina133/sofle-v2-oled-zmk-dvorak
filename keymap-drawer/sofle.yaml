@@ -2,22 +2,22 @@ layout: {zmk_keyboard: sofle}
 layers:
   default:
   - '`'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - PRINTSCREEN
   - TAB
-  - {t: B, h: '['}
-  - {t: L, h: ']'}
-  - {t: D, h: '&msc SCRL_UP'}
-  - {t: C, h: '&msc SCRL_DOWN'}
+  - B
+  - L
+  - D
+  - C
   - V
   - J
   - F
@@ -38,10 +38,10 @@ layers:
   - {t: I, h: RCTRL}
   - /
   - ''
-  - {t: Q, h: '{'}
-  - {t: X, h: '}'}
-  - {t: M, h: (}
-  - {t: W, h: )}
+  - Q
+  - X
+  - M
+  - W
   - Z
   - MUTE
   - ''
@@ -63,11 +63,11 @@ layers:
   - {t: QWETY, h: toggle}
   One_Hand:
   - {t: ▽, type: trans}
-  - (
-  - )
-  - '*'
-  - '&'
-  - ^
+  - '0'
+  - '9'
+  - '8'
+  - '6'
+  - '5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -442,3 +442,11 @@ combos:
   k: (
 - p: [39, 40]
   k: )
+- p: [13, 14]
+  k: '{'
+- p: [37, 38]
+  k: '}'
+- p: [37, 39]
+  k: '['
+- p: [37, 40]
+  k: ']'
