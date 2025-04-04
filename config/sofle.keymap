@@ -65,6 +65,26 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <39 40>;
         };
+
+        d {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <13 14>;
+        };
+
+        s {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <37 38>;
+        };
+
+        rtv {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <37 39>;
+        };
+
+        rtvl {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <37 40>;
+        };
     };
 
     behaviors {
@@ -110,11 +130,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE         &kp EXCLAMATION     &kp AT_SIGN          &kp HASH                    &kp DOLLAR                    &kp PERCENT                                            &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
-&kp TAB           &mt LEFT_BRACKET B  &mt RIGHT_BRACKET L  &hold_tap_scroll SCRL_UP D  &hold_tap_scroll SCRL_DOWN C  &kp V                                                  &kp J      &kp F          &kp O         &kp U                 &kp COMMA              &kp MINUS
-&mt LCTRL DELETE  &mt LCTRL N         &mt LEFT_ALT R       &mt LEFT_SHIFT T            &mt LEFT_SHIFT S              &kp G                                                  &kp Y      &kp H          &kp A         &mt RIGHT_ALT E       &mt RCTRL I            &kp SLASH
-&none             &mt LEFT_BRACE Q    &mt RIGHT_BRACE X    &mt LEFT_PARENTHESIS M      &mt RIGHT_PARENTHESIS W       &kp Z                 &kp K_MUTE         &none         &kp K      &kp P          &kp SQT       &kp SEMICOLON         &kp PERIOD             &kp BACKSLASH
-                                      &none                &none                       &hold_tap_layer 3 SPACE       &hold_tap_toggle 1 4  &kp PRINTSCREEN    &kp LEFT_GUI  &kp SPACE  &mo 5          &none         &tog 2
+&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4             &kp N5                                                 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9           &kp N0       &kp PRINTSCREEN
+&kp TAB           &kp B         &kp L           &kp D             &kp C                    &kp V                                                  &kp J         &kp F         &kp O         &kp U            &kp COMMA    &kp MINUS
+&mt LCTRL DELETE  &mt LCTRL N   &mt LEFT_ALT R  &mt LEFT_SHIFT T  &mt LEFT_SHIFT S         &kp G                                                  &kp Y         &kp H         &kp A         &mt RIGHT_ALT E  &mt RCTRL I  &kp SLASH
+&none             &kp Q         &kp X           &kp M             &kp W                    &kp Z                 &kp K_MUTE         &none         &kp K         &kp P         &kp SQT       &kp SEMICOLON    &kp PERIOD   &kp BACKSLASH
+                                &none           &none             &hold_tap_layer 3 SPACE  &hold_tap_toggle 1 4  &kp PRINTSCREEN    &kp LEFT_GUI  &kp SPACE     &mo 5         &none         &tog 2
             >;
 
             sensor-bindings =
@@ -124,11 +144,11 @@
 
         one_hand_layer {
             bindings = <
-&trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK      &kp AMPERSAND     &kp CARET                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp MINUS        &kp COMMA             &kp U                  &kp O             &kp F             &kp J                        &trans  &trans  &trans  &trans  &trans  &trans
-&mt LCTRL SLASH  &mt LCTRL I           &mt LEFT_ALT E         &mt LEFT_SHIFT A  &mt LEFT_SHIFT H  &kp Y                        &trans  &trans  &trans  &trans  &trans  &trans
-&kp BSLH         &kp DOT               &kp SEMI               &kp APOS          &kp P             &kp K      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                       &trans                 &trans            &none             &trans     &trans    &trans  &trans  &trans  &trans  &trans
+&trans           &kp N0       &kp N9          &kp NUMBER_8      &kp NUMBER_6      &kp NUMBER_5                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp MINUS        &kp COMMA    &kp U           &kp O             &kp F             &kp J                           &trans  &trans  &trans  &trans  &trans  &trans
+&mt LCTRL SLASH  &mt LCTRL I  &mt LEFT_ALT E  &mt LEFT_SHIFT A  &mt LEFT_SHIFT H  &kp Y                           &trans  &trans  &trans  &trans  &trans  &trans
+&kp BSLH         &kp DOT      &kp SEMI        &kp APOS          &kp P             &kp K         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans          &trans            &none             &trans        &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "One_Hand";
