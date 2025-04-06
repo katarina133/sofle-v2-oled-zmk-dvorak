@@ -53,8 +53,8 @@ layers:
   - \
   - ''
   - ''
-  - {t: SPACE, h: ultility}
-  - {t: lower, h: One_Hand}
+  - {t: lower, h: ultility}
+  - {t: SPACE, h: One_Hand}
   - PRINTSCREEN
   - LEFT GUI
   - SPACE
@@ -208,7 +208,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - LEFT SHIFT
   - LCTRL
   - DOWN
@@ -221,10 +221,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
   - PRINTSCREEN
-  - LEFT ALT
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,9 +295,9 @@ layers:
   - ''
   - ''
   - '&bootloader'
+  - '0'
   - ''
-  - ''
-  - {t: '0', h: ','}
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - ''
@@ -432,8 +432,6 @@ combos:
   k: ENTER
 - p: [25, 26]
   k: ESC
-- p: [26, 27]
-  k: BACKSPACE
 - p: [14, 15]
   k: ','
 - p: [15, 16]
