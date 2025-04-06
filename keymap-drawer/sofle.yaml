@@ -25,7 +25,7 @@ layers:
   - U
   - ','
   - '-'
-  - {t: DELETE, h: LCTRL}
+  - {t: BACKSPACE, h: LCTRL}
   - {t: N, h: LCTRL}
   - {t: R, h: LEFT ALT}
   - {t: T, h: LEFT SHIFT}
@@ -224,7 +224,7 @@ layers:
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - PRINTSCREEN
-  - BACKSPACE
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
