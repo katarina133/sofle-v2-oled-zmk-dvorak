@@ -41,11 +41,6 @@
             key-positions = <25 26>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <26 27>;
-        };
-
         comma {
             bindings = <&kp COMMA>;
             key-positions = <14 15>;
@@ -130,11 +125,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4             &kp N5                                                 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9           &kp N0       &kp PRINTSCREEN
-&kp TAB           &kp B         &kp L           &kp D             &kp C                    &kp V                                                  &kp J         &kp F         &kp O         &kp U            &kp COMMA    &kp MINUS
-&mt LCTRL DELETE  &mt LCTRL N   &mt LEFT_ALT R  &mt LEFT_SHIFT T  &mt LEFT_SHIFT S         &kp G                                                  &kp Y         &kp H         &kp A         &mt RIGHT_ALT E  &mt RCTRL I  &kp SLASH
-&none             &kp Q         &kp X           &kp M             &kp W                    &kp Z                 &kp K_MUTE         &none         &kp K         &kp P         &kp SQT       &kp SEMICOLON    &kp PERIOD   &kp BACKSLASH
-                                &none           &none             &hold_tap_layer 3 SPACE  &hold_tap_toggle 1 4  &kp PRINTSCREEN    &kp LEFT_GUI  &kp SPACE     &mo 5         &none         &tog 2
+&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4          &kp N5                                                    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9           &kp N0       &kp PRINTSCREEN
+&kp TAB           &kp B         &kp L           &kp D             &kp C                 &kp V                                                     &kp J         &kp F         &kp O         &kp U            &kp COMMA    &kp MINUS
+&mt LCTRL DELETE  &mt LCTRL N   &mt LEFT_ALT R  &mt LEFT_SHIFT T  &mt LEFT_SHIFT S      &kp G                                                     &kp Y         &kp H         &kp A         &mt RIGHT_ALT E  &mt RCTRL I  &kp SLASH
+&none             &kp Q         &kp X           &kp M             &kp W                 &kp Z                    &kp K_MUTE         &none         &kp K         &kp P         &kp SQT       &kp SEMICOLON    &kp PERIOD   &kp BACKSLASH
+                                &none           &none             &hold_tap_toggle 3 4  &hold_tap_layer 1 SPACE  &kp PRINTSCREEN    &kp LEFT_GUI  &kp SPACE     &mo 5         &none         &tog 2
             >;
 
             sensor-bindings =
@@ -171,11 +166,11 @@
 
         ultility_layer {
             bindings = <
-&trans  &kp F6           &kp F7        &kp F8        &kp F9     &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F11          &kp F12       &kp UP_ARROW  &kp LEFT   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT   &kp LCTRL     &kp DOWN      &kp RIGHT  &none                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PRINTSCREEN  &kp LEFT_ALT  &mkp MB1      &mkp MB2   &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans        &trans        &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans
+&trans        &kp F6          &kp F7          &kp F8           &kp F9         &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &kp F11         &kp F12         &kp UP_ARROW     &kp LEFT       &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL       &kp DOWN         &kp RIGHT      &none                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &msc SCRL_UP    &msc SCRL_DOWN  &kp PRINTSCREEN  &kp BACKSPACE  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans          &trans           &trans         &trans   &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "ultility";
@@ -197,7 +192,7 @@
 &none        &kp KP_PLUS  &kp N7        &kp NUMBER_8  &kp N9        &kp ASTERISK                   &none   &none  &none  &none  &none  &none
 &kp CAPS     &kp MINUS    &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE                  &none   &none  &none  &none  &none  &none
 &bootloader  &kp EQUAL    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none          &none    &none  &none   &none  &none  &none  &none  &bootloader
-                          &none         &none         &mt COMMA N0  &trans         &none    &none  &trans  &none  &none  &none
+                          &kp N0        &none         &trans        &trans         &none    &none  &trans  &none  &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
