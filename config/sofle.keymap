@@ -23,8 +23,8 @@
         compatible = "zmk,conditional-layers";
 
         adjust_layer {
-            if-layers = <4 5>;
-            then-layer = <6>;
+            if-layers = <3 3>;
+            then-layer = <7>;
         };
     };
 
@@ -125,11 +125,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE            &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4          &kp N5                                                    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9           &kp N0       &kp PRINTSCREEN
-&kp TAB              &kp B         &kp L           &kp D             &kp C                 &kp V                                                     &kp J         &kp F         &kp O         &kp U            &kp COMMA    &kp MINUS
-&mt LCTRL BACKSPACE  &mt LCTRL N   &mt LEFT_ALT R  &mt LEFT_SHIFT T  &mt LEFT_SHIFT S      &kp G                                                     &kp Y         &kp H         &kp A         &mt RIGHT_ALT E  &mt RCTRL I  &kp SLASH
-&none                &kp Q         &kp X           &kp M             &kp W                 &kp Z                    &kp K_MUTE         &none         &kp K         &kp P         &kp SQT       &kp SEMICOLON    &kp PERIOD   &kp BACKSLASH
-                                   &none           &none             &hold_tap_toggle 3 4  &hold_tap_layer 1 SPACE  &kp PRINTSCREEN    &kp LEFT_GUI  &kp SPACE     &mo 5         &none         &tog 2
+&kp GRAVE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4      &kp N5                                                  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp N9           &kp N0       &kp PRINTSCREEN
+&kp TAB       &kp B         &kp L         &kp D             &kp C             &kp V                                                   &kp J          &kp F         &kp O         &kp U            &kp COMMA    &kp MINUS
+&kp LEFT_ALT  &mt LCTRL N   &kp R         &mt LEFT_SHIFT T  &mt LEFT_SHIFT S  &kp G                                                   &kp Y          &kp H         &kp A         &mt RIGHT_ALT E  &mt RCTRL I  &kp SLASH
+&none         &kp Q         &kp X         &kp M             &kp W             &kp Z                    &kp K_MUTE       &none         &kp K          &kp P         &kp SQT       &kp SEMICOLON    &kp PERIOD   &kp BACKSLASH
+                            &none         &none             &mo 3             &hold_tap_layer 1 SPACE  &kp BACKSPACE    &kp LEFT_GUI  &kp BACKSPACE  &mo 4         &none         &tog 2
             >;
 
             sensor-bindings =
@@ -151,29 +151,17 @@
 
         QWETY_layer {
             bindings = <
-&kp CAPS   &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                           &kp N6  &kp N7         &kp N8     &kp N9   &kp N0    &kp BSPC
-&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T                            &kp Y   &kp U          &kp I      &kp O    &kp P     &kp LBKT
-&kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G                            &kp H   &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
-&kp ESC    &kp Z   &kp X     &kp C     &kp V      &kp B   &kp C_MUTE    &trans     &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-                   &kp LGUI  &kp LALT  &kp LCTRL  &mo 4   &kp ENTER     &kp SPACE  &mo 5   &kp BACKSPACE  &trans     &trans
+&kp CAPS   &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                                            &kp N6         &kp N7  &kp N8     &kp N9   &kp N0    &kp BSPC
+&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T                                             &kp Y          &kp U   &kp I      &kp O    &kp P     &kp LBKT
+&kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G                                             &kp H          &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp ESC    &kp Z   &kp X     &kp C     &kp V      &kp B                    &kp C_MUTE    &trans     &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
+                   &kp LGUI  &kp LALT  &kp LCTRL  &hold_tap_layer 3 SPACE  &kp ENTER     &kp SPACE  &kp BACKSPACE  &mo 4   &trans     &trans
             >;
 
             label = "QWETY";
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
                 <&inc_dec_kp PG_DN PG_UP>;
-        };
-
-        ultility_layer {
-            bindings = <
-&trans        &kp F6          &kp F7          &kp F8           &kp F9      &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &kp F11         &kp F12         &kp UP_ARROW     &kp LEFT    &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL       &kp DOWN         &kp RIGHT   &none                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &msc SCRL_UP    &msc SCRL_DOWN  &kp PRINTSCREEN  &kp DELETE  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans          &trans           &trans      &trans   &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "ultility";
         };
 
         lower_layer {
@@ -199,24 +187,15 @@
         };
 
         raise_layer {
-            label = "raise";
-
-            // ------------------------------------------------------------------------------------------------------------
-            // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
-            // |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
-            // |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
-            // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
-            //                |      |       |       |      |      |  |      |      |      |       |      |
-
             bindings = <
-&none           &none     &kp F10  &kp F11       &kp F12           &none                          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none           &kp HOME  &kp F7   &kp F8        &kp F9            &kp PAGE_UP                    &none       &none         &kp UP        &none         &none         &none
-&kp LEFT_SHIFT  &kp END   &kp F4   &kp F5        &kp F6            &kp PAGE_DOWN                  &none       &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none
-&none           &none     &kp F1   &kp F2        &kp F3            &none          &none    &none  &none       &none         &none         &none         &none         &none
-                          &none    &kp LEFT_ALT  &kp LEFT_CONTROL  &trans         &none    &none  &trans      &none         &none         &none
+&trans        &kp F6          &kp F7          &kp F8           &kp F9      &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &kp F11         &kp F12         &kp UP_ARROW     &kp LEFT    &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL       &kp DOWN         &kp RIGHT   &none                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &msc SCRL_UP    &msc SCRL_DOWN  &kp PRINTSCREEN  &kp DELETE  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans          &trans           &trans      &trans   &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            label = "raise";
         };
 
         adjust_layer {
