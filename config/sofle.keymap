@@ -126,11 +126,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1                &kp NUMBER_2                   &kp NUMBER_3  &kp NUMBER_4                     &kp N5                                       &kp NUMBER_6   &kp NUMBER_7                       &kp NUMBER_8  &kp N9         &kp N0                       &kp PRINTSCREEN
-&kp TAB    &kp B                       &kp L                          &kp D         &kp C                            &kp V                                        &kp J          &kp F                              &kp O         &kp U          &kp COMMA                    &kp MINUS
-&kp BSPC   &home_row_mod_left LCTRL N  &home_row_mod_left LEFT_ALT R  &kp T         &home_row_mod_left LEFT_SHIFT S  &kp G                                        &kp Y          &home_row_mod_right RIGHT_SHIFT H  &kp A         &kp E          &home_row_mod_right RCTRL I  &kp SLASH
-&kp LCTRL  &kp Q                       &kp X                          &kp M         &kp W                            &kp Z        &kp K_MUTE        &none         &kp K          &kp P                              &kp SQT       &kp SEMICOLON  &kp PERIOD                   &kp BACKSLASH
-                                       &none                          &none         &mo 3                            &lt 1 SPACE  &kp LEFT_SHIFT    &kp LEFT_GUI  &kp BACKSPACE  &mo 4                              &none         &tog 2
+&kp GRAVE  &kp NUMBER_1                &kp NUMBER_2                   &kp NUMBER_3  &kp NUMBER_4                     &kp N5                                       &kp NUMBER_6  &kp NUMBER_7                       &kp NUMBER_8  &kp N9         &kp N0                       &kp PRINTSCREEN
+&kp TAB    &kp B                       &kp L                          &kp D         &kp C                            &kp V                                        &kp J         &kp F                              &kp O         &kp U          &kp COMMA                    &kp MINUS
+&kp BSPC   &home_row_mod_left LCTRL N  &home_row_mod_left LEFT_ALT R  &kp T         &home_row_mod_left LEFT_SHIFT S  &kp G                                        &kp Y         &home_row_mod_right RIGHT_SHIFT H  &kp A         &kp E          &home_row_mod_right RCTRL I  &kp SLASH
+&kp LCTRL  &kp Q                       &kp X                          &kp M         &kp W                            &kp Z        &kp K_MUTE        &none         &kp K         &kp P                              &kp SQT       &kp SEMICOLON  &kp PERIOD                   &kp BACKSLASH
+                                       &none                          &none         &mo 3                            &lt 1 SPACE  &kp LEFT_SHIFT    &kp LEFT_GUI  &kp SPACE     &mo 4                              &none         &tog 2
             >;
 
             sensor-bindings =
