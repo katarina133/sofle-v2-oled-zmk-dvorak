@@ -177,10 +177,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&sys_reset   &kp F1                          &kp F2                                &kp F3        &kp F4                                  &kp F5                         &none   &none          &none      &none    &none  &sys_reset
-&none        &kp KP_PLUS                     &kp N7                                &kp NUMBER_8  &kp N9                                  &kp ASTERISK                   &none   &none          &none      &none    &none  &none
-&none        &home_row_mod_left LCTRL MINUS  &home_row_mod_left LEFT_ALT NUMBER_4  &kp NUMBER_5  &home_row_mod_left LEFT_SHIFT NUMBER_6  &kp KP_DIVIDE                  &none   &kp BACKSPACE  &kp ENTER  &kp DEL  &none  &none
-&bootloader  &kp EQUAL                       &kp NUMBER_1                          &kp NUMBER_2  &kp NUMBER_3                            &kp PERIOD     &none    &none  &none   &kp HOME       &kp END    &none    &none  &bootloader
+&sys_reset   &kp F1                          &kp F2                                &kp F3        &kp F4                                  &kp F5                         &none   &none          &none      &none      &none      &sys_reset
+&none        &kp KP_PLUS                     &kp N7                                &kp NUMBER_8  &kp N9                                  &kp ASTERISK                   &none   &kp LC(X)      &kp LC(C)  &kp LC(V)  &kp LC(Z)  &none
+&none        &home_row_mod_left LCTRL MINUS  &home_row_mod_left LEFT_ALT NUMBER_4  &kp NUMBER_5  &home_row_mod_left LEFT_SHIFT NUMBER_6  &kp KP_DIVIDE                  &none   &kp BACKSPACE  &kp ENTER  &kp DEL    &none      &none
+&bootloader  &kp EQUAL                       &kp NUMBER_1                          &kp NUMBER_2  &kp NUMBER_3                            &kp PERIOD     &none    &none  &none   &kp TAB        &kp HOME   &kp END    &none      &bootloader
                                              &kp N0                                &none         &trans                                  &trans         &none    &none  &trans  &trans         &trans     &trans
             >;
 
