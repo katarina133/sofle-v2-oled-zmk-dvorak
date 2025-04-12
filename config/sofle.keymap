@@ -126,11 +126,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1                &kp NUMBER_2                   &kp NUMBER_3                     &kp NUMBER_4                     &kp N5                                   &kp NUMBER_6  &kp NUMBER_7                       &kp NUMBER_8  &kp N9         &kp N0                       &kp PRINTSCREEN
-&kp TAB    &kp B                       &kp L                          &kp D                            &kp C                            &kp V                                    &kp J         &kp F                              &kp O         &kp U          &kp COMMA                    &kp MINUS
-&kp BSPC   &home_row_mod_left LCTRL N  &home_row_mod_left LEFT_ALT R  &home_row_mod_left LEFT_SHIFT T  &home_row_mod_left LEFT_SHIFT S  &kp G                                    &kp Y         &home_row_mod_right RIGHT_SHIFT H  &kp A         &kp E          &home_row_mod_right RCTRL I  &kp SLASH
-&kp LCTRL  &kp Q                       &kp X                          &kp M                            &kp W                            &kp Z        &kp K_MUTE    &none         &kp K         &kp P                              &kp SQT       &kp SEMICOLON  &kp PERIOD                   &kp BACKSLASH
-                                       &none                          &none                            &mo 3                            &lt 1 SPACE  &mo 4         &kp LEFT_GUI  &kp SPACE     &mo 4                              &none         &tog 2
+&kp GRAVE  &kp NUMBER_1                &kp NUMBER_2                   &kp NUMBER_3                     &kp NUMBER_4                     &kp N5                                   &kp NUMBER_6  &kp NUMBER_7                       &kp NUMBER_8                       &kp N9                           &kp N0                       &kp PRINTSCREEN
+&kp TAB    &kp B                       &kp L                          &kp D                            &kp C                            &kp V                                    &kp J         &kp F                              &kp O                              &kp U                            &kp COMMA                    &kp MINUS
+&kp BSPC   &home_row_mod_left LCTRL N  &home_row_mod_left LEFT_ALT R  &home_row_mod_left LEFT_SHIFT T  &home_row_mod_left LEFT_SHIFT S  &kp G                                    &kp Y         &home_row_mod_right RIGHT_SHIFT H  &home_row_mod_right RIGHT_SHIFT A  &home_row_mod_right RIGHT_ALT E  &home_row_mod_right RCTRL I  &kp SLASH
+&kp LCTRL  &kp Q                       &kp X                          &kp M                            &kp W                            &kp Z        &kp K_MUTE    &none         &kp K         &kp P                              &kp SQT                            &kp SEMICOLON                    &kp PERIOD                   &kp BACKSLASH
+                                       &none                          &none                            &mo 3                            &lt 1 SPACE  &mo 4         &kp LEFT_GUI  &lt 3 SPACE   &mo 4                              &none                              &tog 2
             >;
 
             sensor-bindings =
@@ -140,11 +140,11 @@
 
         one_hand_layer {
             bindings = <
-&trans                          &kp N0                      &kp N9                         &kp NUMBER_8                     &kp NUMBER_6                     &kp NUMBER_5                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp MINUS                       &kp COMMA                   &kp U                          &kp O                            &kp F                            &kp J                           &trans  &trans  &trans  &trans  &trans  &trans
-&home_row_mod_left LCTRL SLASH  &home_row_mod_left LCTRL I  &home_row_mod_left LEFT_ALT E  &home_row_mod_left LEFT_SHIFT A  &home_row_mod_left LEFT_SHIFT H  &kp Y                           &trans  &trans  &trans  &trans  &trans  &trans
-&kp BSLH                        &kp DOT                     &kp SEMI                       &kp APOS                         &kp P                            &kp K         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                            &trans                         &trans                           &none                            &trans        &trans    &trans  &trans  &trans  &trans  &trans
+&trans                          &kp N0                      &kp N9                         &kp NUMBER_8                     &kp NUMBER_6                     &kp NUMBER_5                    &kp F6         &kp F7  &kp F8  &kp F9  &kp F10      &kp F11
+&kp MINUS                       &kp COMMA                   &kp U                          &kp O                            &kp F                            &kp J                           &kp ASTERISK   &kp N7  &kp N8  &kp N9  &kp KP_PLUS  &trans
+&home_row_mod_left LCTRL SLASH  &home_row_mod_left LCTRL I  &home_row_mod_left LEFT_ALT E  &home_row_mod_left LEFT_SHIFT A  &home_row_mod_left LEFT_SHIFT H  &kp Y                           &kp KP_DIVIDE  &kp N4  &kp N5  &kp N6  &kp MINUS    &trans
+&kp BSLH                        &kp DOT                     &kp SEMI                       &kp APOS                         &kp P                            &kp K         &trans    &trans  &kp PERIOD     &kp N1  &kp N2  &kp N3  &kp EQUAL    &trans
+                                                            &trans                         &trans                           &trans                           &trans        &trans    &trans  &trans         &kp N0  &trans  &trans
             >;
 
             label = "One_Hand";
@@ -177,11 +177,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&sys_reset   &kp F1       &kp F2        &kp F3        &kp F4        &kp F5                         &none   &none  &none  &none  &none  &sys_reset
-&none        &kp KP_PLUS  &kp N7        &kp NUMBER_8  &kp N9        &kp ASTERISK                   &none   &none  &none  &none  &none  &none
-&kp CAPS     &kp MINUS    &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE                  &none   &none  &none  &none  &none  &none
-&bootloader  &kp EQUAL    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none          &none    &none  &none   &none  &none  &none  &none  &bootloader
-                          &kp N0        &none         &trans        &trans         &none    &none  &trans  &none  &none  &none
+&sys_reset   &kp F1                          &kp F2                                &kp F3        &kp F4                                  &kp F5                         &none   &none          &none      &none    &none  &sys_reset
+&none        &kp KP_PLUS                     &kp N7                                &kp NUMBER_8  &kp N9                                  &kp ASTERISK                   &none   &none          &none      &none    &none  &none
+&none        &home_row_mod_left LCTRL MINUS  &home_row_mod_left LEFT_ALT NUMBER_4  &kp NUMBER_5  &home_row_mod_left LEFT_SHIFT NUMBER_6  &kp KP_DIVIDE                  &none   &kp BACKSPACE  &kp ENTER  &kp DEL  &none  &none
+&bootloader  &kp EQUAL                       &kp NUMBER_1                          &kp NUMBER_2  &kp NUMBER_3                            &kp PERIOD     &none    &none  &none   &kp HOME       &kp END    &none    &none  &bootloader
+                                             &kp N0                                &none         &trans                                  &trans         &none    &none  &trans  &trans         &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -189,11 +189,11 @@
 
         raise_layer {
             bindings = <
-&trans        &kp F6          &kp F7          &kp F8           &kp F9      &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &kp F11         &kp F12         &kp UP_ARROW     &kp LEFT    &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL       &kp DOWN         &kp RIGHT   &none                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &msc SCRL_UP    &msc SCRL_DOWN  &kp PRINTSCREEN  &kp DELETE  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans          &trans           &trans      &trans   &trans    &trans  &trans  &trans  &trans  &trans
+&trans        &kp F6          &kp F7          &kp F8           &kp F9      &kp F10                    &trans  &trans    &trans    &trans     &trans  &trans
+&trans        &kp F11         &kp F12         &kp UP_ARROW     &kp LEFT    &trans                     &trans  &kp HOME  &kp UP    &kp END    &trans  &trans
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL       &kp DOWN         &kp RIGHT   &none                      &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &trans
+&trans        &msc SCRL_UP    &msc SCRL_DOWN  &kp PRINTSCREEN  &kp DELETE  &trans   &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+                              &trans          &trans           &trans      &trans   &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
             label = "raise";
