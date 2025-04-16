@@ -165,7 +165,7 @@
         one_hand_layer {
             bindings = <
 &trans                          &kp N0                      &kp N9                         &kp NUMBER_8                     &kp NUMBER_6                     &kp NUMBER_5                    &kp F6         &kp F7  &kp F8  &kp F9  &kp F10      &kp F11
-&kp MINUS                       &kp COMMA                   &kp U                          &kp O                            &kp F                            &kp J                           &kp ASTERISK   &kp N7  &kp N8  &kp N9  &kp KP_PLUS  &trans
+&kp MINUS                       &kp COMMA                   &kp U                          &kp O                            &kp F                            &kp J                           &kp ASTERISK   &kp N7  &kp N8  &kp N9  &kp KP_PLUS  &kp F12
 &home_row_mod_left LCTRL SLASH  &home_row_mod_left LCTRL I  &home_row_mod_left LEFT_ALT E  &home_row_mod_left LEFT_SHIFT A  &home_row_mod_left LEFT_SHIFT H  &kp Y                           &kp KP_DIVIDE  &kp N4  &kp N5  &kp N6  &kp MINUS    &trans
 &kp BSLH                        &kp DOT                     &kp SEMI                       &kp APOS                         &kp P                            &kp K         &trans    &trans  &kp PERIOD     &kp N1  &kp N2  &kp N3  &kp EQUAL    &trans
                                                             &trans                         &trans                           &trans                           &trans        &trans    &trans  &trans         &kp N0  &trans  &trans
@@ -186,9 +186,9 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&sys_reset   &kp F1                          &kp F2                                &kp F3        &kp F4                                  &kp F5                         &none   &none          &none      &none       &none      &sys_reset
-&none        &kp KP_PLUS                     &kp N7                                &kp NUMBER_8  &kp N9                                  &kp ASTERISK                   &none   &kp UP_ARROW   &kp DOWN   &kp LEFT    &kp RIGHT  &none
-&none        &home_row_mod_left LCTRL MINUS  &home_row_mod_left LEFT_ALT NUMBER_4  &kp NUMBER_5  &home_row_mod_left LEFT_SHIFT NUMBER_6  &kp KP_DIVIDE                  &none   &kp BACKSPACE  &kp ENTER  &kp ESCAPE  &kp DEL    &none
+&sys_reset   &kp F1                          &kp F2                                &kp F3        &kp F4                                  &kp F5                         &kp F6  &kp F7         &kp F8     &kp F9      &kp F10    &sys_reset
+&none        &kp KP_PLUS                     &kp N7                                &kp NUMBER_8  &kp N9                                  &kp ASTERISK                   &none   &kp UP_ARROW   &kp DOWN   &kp LEFT    &kp RIGHT  &kp F11
+&none        &home_row_mod_left LCTRL MINUS  &home_row_mod_left LEFT_ALT NUMBER_4  &kp NUMBER_5  &home_row_mod_left LEFT_SHIFT NUMBER_6  &kp KP_DIVIDE                  &none   &kp BACKSPACE  &kp ENTER  &kp ESCAPE  &kp DEL    &kp F12
 &bootloader  &kp EQUAL                       &kp NUMBER_1                          &kp NUMBER_2  &kp NUMBER_3                            &kp PERIOD     &none    &none  &none   &kp LC(Z)      &kp LC(X)  &kp LC(C)   &kp LC(V)  &bootloader
                                              &kp N0                                &none         &trans                                  &trans         &none    &none  &trans  &trans         &trans     &trans
             >;
