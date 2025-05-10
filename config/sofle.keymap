@@ -149,11 +149,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9         &kp N0      &kp PRINTSCREEN
-&kp TAB       &kp B         &kp L         &kp D         &kp C         &kp V                                    &kp J         &kp F         &kp O         &kp U          &kp COMMA   &kp MINUS
-&kp DEL       &kp N         &kp R         &kp T         &kp S         &kp G                                    &kp Y         &kp H         &kp A         &kp E          &kp I       &kp SLASH
-&kp LEFT_WIN  &kp Q         &kp X         &kp M         &kp W         &kp Z           &kp K_MUTE    &none      &kp K         &kp P         &kp SQT       &kp SEMICOLON  &kp PERIOD  &kp BACKSLASH
-                            &mo 3         &mo 2         &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL     &kp RCTRL  &lt 3 SPACE   &mo 4         &kp CAPS      &tog 1
+&kp GRAVE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                   &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp N9         &kp N0      &kp PRINTSCREEN
+&kp TAB       &kp B         &kp L         &kp D         &kp C         &kp V                                    &kp J              &kp F         &kp O         &kp U          &kp COMMA   &kp MINUS
+&kp DEL       &kp N         &kp R         &kp T         &kp S         &kp G                                    &kp Y              &kp H         &kp A         &kp E          &kp I       &kp SLASH
+&kp LEFT_WIN  &kp Q         &kp X         &kp M         &kp W         &kp Z           &kp K_MUTE    &none      &kp K              &kp P         &kp SQT       &kp SEMICOLON  &kp PERIOD  &kp BACKSLASH
+                            &mo 3         &mo 2         &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL     &kp RCTRL  &layer_kp 3 SPACE  &mo 4         &kp CAPS      &tog 1
             >;
 
             sensor-bindings =
