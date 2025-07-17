@@ -37,7 +37,7 @@ layers:
   - E
   - I
   - /
-  - LEFT WIN
+  - LEFT CONTROL
   - Q
   - X
   - M
@@ -52,12 +52,12 @@ layers:
   - .
   - \
   - lower
-  - One_Hand
+  - LEFT WIN
   - LEFT ALT
   - LEFT SHIFT
   - LCTRL
-  - RCTRL
-  - {t: SPACE, h: lower}
+  - lower
+  - SPACE
   - raise
   - CAPS
   - {t: QWETY, h: toggle}
@@ -174,7 +174,7 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
