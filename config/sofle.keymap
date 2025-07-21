@@ -224,11 +224,11 @@
 
         Hotkey_layer {
             bindings = <
-&trans  &trans     &trans         &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(C)  &kp LC(LG(V))  &kp LC(V)  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans         &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans         &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)         &kp LC(LG(V))  &kp LC(F)  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(C)         &kp LC(X)      &kp LC(V)  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(NUMBER_9)  &kp LC(N0)     &kp LC(Z)  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans         &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Hotkey";
