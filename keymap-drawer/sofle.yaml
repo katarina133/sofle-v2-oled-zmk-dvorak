@@ -319,9 +319,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+A
+  - Ctl+Gui+V
+  - Ctl+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -332,7 +332,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - Ctl+C
-  - Ctl+Gui+V
+  - Ctl+X
   - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -343,9 +343,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+9
+  - Ctl+0
+  - Ctl+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
