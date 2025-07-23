@@ -33,7 +33,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <27 28>;
+            key-positions = <27 25>;
         };
 
         esc {
@@ -43,42 +43,42 @@
 
         comma {
             bindings = <&kp COMMA>;
-            key-positions = <14 15>;
+            key-positions = <26 27>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <15 16>;
+            key-positions = <26 28>;
         };
 
         n {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <38 39>;
+            key-positions = <13 14>;
         };
 
         r {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <39 40>;
+            key-positions = <13 15>;
         };
 
         d {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <13 14>;
+            key-positions = <37 38>;
         };
 
         s {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <37 38>;
+            key-positions = <37 39>;
         };
 
         rtv {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <37 39>;
+            key-positions = <38 39>;
         };
 
         rtvl {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <37 40>;
+            key-positions = <38 40>;
         };
     };
 
