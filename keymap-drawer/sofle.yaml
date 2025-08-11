@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - PRINTSCREEN
-  - LCTRL
+  - TAB
   - B
   - L
   - D
@@ -25,7 +25,7 @@ layers:
   - U
   - ','
   - '-'
-  - Hotkey
+  - LCTRL
   - N
   - R
   - T
@@ -37,7 +37,7 @@ layers:
   - E
   - I
   - /
-  - TAB
+  - DEL
   - Q
   - X
   - M
@@ -53,12 +53,12 @@ layers:
   - \
   - lower
   - LEFT WIN
-  - LEFT ALT
+  - raise
   - LEFT SHIFT
   - BACKSPACE
   - lower
   - SPACE
-  - raise
+  - LEFT ALT
   - CAPS
   - {t: QWETY, h: toggle}
   QWETY:
@@ -246,46 +246,6 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F11
-  - F12
-  - UP ARROW
-  - LEFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - UP
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - PRINTSCREEN
-  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -298,18 +258,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Hotkey:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - Gui+Sft+V
+  - Ctl+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -320,17 +271,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+A
-  - Ctl+Gui+V
-  - Ctl+F
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - Ctl+C
   - Ctl+X
   - Ctl+V
@@ -343,8 +283,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+9
-  - Ctl+0
+  - {t: ▽, type: trans}
   - Ctl+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -358,7 +297,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -419,12 +358,12 @@ layers:
   - ''
   - {type: held}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
 combos:
