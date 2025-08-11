@@ -24,7 +24,7 @@
 
         adjust_layer {
             if-layers = <4 3>;
-            then-layer = <6>;
+            then-layer = <5>;
         };
     };
 
@@ -150,10 +150,10 @@
 
             bindings = <
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9         &kp N0      &kp PRINTSCREEN
-&kp LCTRL  &kp B         &kp L         &kp D         &kp C         &kp V                                   &kp J         &kp F         &kp O         &kp U          &kp COMMA   &kp MINUS
-&mo 5      &kp N         &kp R         &kp T         &kp S         &kp G                                   &kp Y         &kp H         &kp A         &kp E          &kp I       &kp SLASH
-&kp TAB    &kp Q         &kp X         &kp M         &kp W         &kp Z           &kp C_MUTE       &none  &kp K         &kp P         &kp SQT       &kp SEMICOLON  &kp PERIOD  &kp BACKSLASH
-                         &mo 3         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp BACKSPACE    &mo 3  &kp SPACE     &mo 4         &kp CAPS      &tog 1
+&kp TAB    &kp B         &kp L         &kp D         &kp C         &kp V                                   &kp J         &kp F         &kp O         &kp U          &kp COMMA   &kp MINUS
+&kp LCTRL  &kp N         &kp R         &kp T         &kp S         &kp G                                   &kp Y         &kp H         &kp A         &kp E          &kp I       &kp SLASH
+&kp DEL    &kp Q         &kp X         &kp M         &kp W         &kp Z           &kp C_MUTE       &none  &kp K         &kp P         &kp SQT       &kp SEMICOLON  &kp PERIOD  &kp BACKSLASH
+                         &mo 3         &kp LEFT_WIN  &mo 4         &kp LEFT_SHIFT  &kp BACKSPACE    &mo 3  &kp SPACE     &kp LEFT_ALT  &kp CAPS      &tog 1
             >;
 
             sensor-bindings =
@@ -212,26 +212,14 @@
 
         raise_layer {
             bindings = <
-&trans  &kp F6        &kp F7          &kp F8           &kp F9      &kp F10                    &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp F11       &kp F12         &kp UP_ARROW     &kp LEFT    &trans                     &trans  &kp HOME  &kp UP    &kp END    &trans  &trans
-&trans  &msc SCRL_UP  &msc SCRL_DOWN  &kp DOWN         &kp RIGHT   &trans                     &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &mkp MB1      &mkp MB2        &kp PRINTSCREEN  &kp DELETE  &trans   &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
-                      &trans          &trans           &trans      &trans   &trans    &trans  &trans  &trans    &trans    &trans
+&trans  &trans        &trans         &trans     &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_ALT  &kp LG(LS(V))  &kp LC(F)  &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)     &kp LC(C)      &kp LC(X)  &kp LC(V)  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans         &kp LC(Z)  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans         &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "raise";
-        };
-
-        Hotkey_layer {
-            bindings = <
-&trans  &trans            &trans         &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)         &kp LC(LG(V))  &kp LC(F)  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(C)         &kp LC(X)      &kp LC(V)  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(NUMBER_9)  &kp LC(N0)     &kp LC(Z)  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans         &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "Hotkey";
         };
 
         adjust_layer {
