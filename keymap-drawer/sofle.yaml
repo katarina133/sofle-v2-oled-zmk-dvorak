@@ -51,12 +51,12 @@ layers:
   - ;
   - .
   - \
-  - lower
+  - LEFT ALT
   - LEFT WIN
   - raise
+  - lower
   - LEFT SHIFT
   - BACKSPACE
-  - lower
   - SPACE
   - LEFT ALT
   - CAPS
@@ -234,10 +234,10 @@ layers:
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - '&sys_reset'
-  - {t: '0', type: held}
+  - '0'
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -356,10 +356,10 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - {type: held}
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
