@@ -196,52 +196,52 @@ layers:
   - F9
   - F10
   - F11
-  - ''
-  - KP PLUS
+  - {t: ▽, type: trans}
+  - LEFT
+  - RIGHT
+  - DOWN ARROW
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - '*'
   - '7'
   - '8'
   - '9'
-  - '*'
-  - ''
-  - UP ARROW
-  - DOWN
-  - LEFT
-  - RIGHT
+  - KP PLUS
   - F12
-  - ''
-  - '-'
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - DEL
+  - ESCAPE
+  - ENTER
+  - {t: ▽, type: trans}
+  - KP DIVIDE
   - '4'
   - '5'
   - '6'
-  - KP DIVIDE
-  - ''
-  - BACKSPACE
-  - ENTER
-  - ESCAPE
-  - DEL
+  - '-'
   - {t: ▽, type: trans}
   - '&sys_reset'
-  - '='
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - END
+  - HOME
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - '&bootloader'
+  - .
   - '1'
   - '2'
   - '3'
-  - .
-  - '&bootloader'
-  - '&bootloader'
-  - ''
-  - HOME
-  - END
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - '='
   - '&sys_reset'
-  - '0'
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
+  - LEFT SHIFT
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
