@@ -200,11 +200,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans      &kp F1          &kp F2        &kp F3          &kp F4        &kp F5                              &kp F6          &kp F7        &kp F8  &kp F9  &kp F10      &kp F11
-&trans      &kp LEFT        &kp RIGHT     &kp DOWN_ARROW  &kp UP_ARROW  &trans                              &kp ASTERISK    &kp N7        &kp N8  &kp N9  &kp KP_PLUS  &kp F12
-&trans      &kp LEFT_ALT    &kp DEL       &kp ESCAPE      &kp ENTER     &trans                              &kp KP_DIVIDE   &kp N4        &kp N5  &kp N6  &kp MINUS    &trans
-&sys_reset  &msc SCRL_DOWN  &msc SCRL_UP  &kp END         &kp HOME      &trans  &bootloader    &bootloader  &kp DOT         &kp NUMBER_1  &kp N2  &kp N3  &kp EQUAL    &sys_reset
-                            &trans        &trans          &trans        &trans  &trans         &kp RCTRL    &kp LEFT_SHIFT  &kp NUMBER_0  &trans  &trans
+&trans        &kp F1          &kp F2        &kp F3          &kp F4        &kp F5                              &kp F6          &kp F7        &kp F8  &kp F9  &kp F10      &kp F11
+&trans        &kp LEFT        &kp RIGHT     &kp DOWN_ARROW  &kp UP_ARROW  &trans                              &kp ASTERISK    &kp N7        &kp N8  &kp N9  &kp KP_PLUS  &kp F12
+&kp LEFT_ALT  &kp ESCAPE      &kp DEL       &kp BACKSPACE   &kp ENTER     &trans                              &kp KP_DIVIDE   &kp N4        &kp N5  &kp N6  &kp MINUS    &trans
+&sys_reset    &msc SCRL_DOWN  &msc SCRL_UP  &kp END         &kp HOME      &trans  &bootloader    &bootloader  &kp DOT         &kp NUMBER_1  &kp N2  &kp N3  &kp EQUAL    &sys_reset
+                              &trans        &trans          &trans        &trans  &trans         &kp RCTRL    &kp LEFT_SHIFT  &kp NUMBER_0  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
