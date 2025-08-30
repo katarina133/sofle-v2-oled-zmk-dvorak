@@ -208,10 +208,10 @@ layers:
   - '9'
   - KP PLUS
   - F12
-  - {t: ▽, type: trans}
   - LEFT ALT
-  - DEL
   - ESCAPE
+  - DEL
+  - BACKSPACE
   - ENTER
   - {t: ▽, type: trans}
   - KP DIVIDE
