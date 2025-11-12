@@ -51,11 +51,11 @@ layers:
   - ;
   - .
   - \
-  - LEFT ALT
   - LEFT WIN
-  - raise
+  - LEFT ALT
   - raise
   - LEFT SHIFT
+  - lower
   - BACKSPACE
   - SPACE
   - LEFT ALT
@@ -197,7 +197,7 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - LEFT ALT
+  - Ctl+Z
   - Ctl+C
   - Ctl+X
   - Ctl+V
@@ -221,10 +221,10 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - '&sys_reset'
-  - Ctl+Z
+  - Ctl+A
   - Ctl+A
   - Ctl+F
-  - HOME
+  - Ctl+F
   - {t: ▽, type: trans}
   - '&bootloader'
   - '&bootloader'
@@ -238,7 +238,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - RCTRL
   - LEFT SHIFT
   - '0'
