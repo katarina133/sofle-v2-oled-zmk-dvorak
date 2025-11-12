@@ -54,7 +54,7 @@ layers:
   - LEFT ALT
   - LEFT WIN
   - raise
-  - lower
+  - raise
   - LEFT SHIFT
   - BACKSPACE
   - SPACE
@@ -116,9 +116,9 @@ layers:
   - LALT
   - SPACE
   - LCTRL
-  - lower
+  - raise
   - RIGHT SHIFT
-  - {t: SPACE, h: lower}
+  - {t: SPACE, h: raise}
   - raise
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,18 +197,18 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - LEFT
-  - RIGHT
-  - DOWN ARROW
-  - UP ARROW
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - Ctl+C
+  - Ctl+X
+  - Ctl+V
+  - Sft+Gui+V
   - '*'
   - '7'
   - '8'
   - '9'
   - KP PLUS
   - F12
-  - LEFT ALT
+  - {t: ▽, type: trans}
   - ESCAPE
   - DEL
   - BACKSPACE
@@ -221,9 +221,9 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - '&sys_reset'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - END
+  - Ctl+Z
+  - Ctl+A
+  - Ctl+F
   - HOME
   - {t: ▽, type: trans}
   - '&bootloader'
@@ -237,7 +237,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RCTRL
   - LEFT SHIFT
@@ -258,9 +258,27 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT
+  - RIGHT
+  - UP
+  - DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT SHIFT
   - LEFT ALT
-  - Gui+Sft+V
-  - Ctl+F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,24 +286,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+A
-  - Ctl+C
-  - Ctl+X
-  - Ctl+V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ENTER
-  - Ctl+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -359,7 +359,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
