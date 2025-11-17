@@ -198,10 +198,10 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - Ctl+Z
-  - Ctl+C
+  - Ctl+X
   - Ctl+X
   - Ctl+V
-  - Sft+Gui+V
+  - '&AdvancePaste'
   - '*'
   - '7'
   - '8'
