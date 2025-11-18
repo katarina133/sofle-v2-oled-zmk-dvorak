@@ -140,11 +140,11 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LS(LG(V))>,
-                <&macro_wait_time 200>,
+                <&macro_wait_time 500>,
                 <&kp LEFT_GUI>,
-                <&macro_wait_time 200>,
+                <&macro_wait_time 500>,
                 <&kp LEFT_GUI>,
-                <&macro_wait_time 200>,
+                <&macro_wait_time 500>,
                 <&kp LEFT_SHIFT>;
 
             label = "ADVANCEPASTE";
