@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - PRINTSCREEN
-  - TAB
+  - CAPS
   - B
   - L
   - D
@@ -25,19 +25,19 @@ layers:
   - U
   - ','
   - '-'
-  - {t: BACKSPACE, h: LCTRL}
+  - BSPC
   - {t: N, h: LCTRL}
   - {t: R, h: LEFT ALT}
   - {t: T, h: LEFT SHIFT}
   - {t: S, h: LEFT SHIFT}
   - G
   - Y
-  - H
-  - A
+  - {t: H, h: RIGHT SHIFT}
+  - {t: A, h: RIGHT SHIFT}
   - {t: E, h: RIGHT ALT}
   - {t: I, h: RCTRL}
   - /
-  - ''
+  - LCTRL
   - Q
   - X
   - M
@@ -53,75 +53,14 @@ layers:
   - \
   - ''
   - ''
-  - {t: lower, h: ultility}
+  - {t: TAB, h: lower}
   - {t: SPACE, h: One_Hand}
-  - PRINTSCREEN
+  - raise
   - LEFT GUI
-  - SPACE
+  - {t: SPACE, h: lower}
   - raise
   - ''
   - {t: QWETY, h: toggle}
-  One_Hand:
-  - {t: ▽, type: trans}
-  - '0'
-  - '9'
-  - '8'
-  - '6'
-  - '5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - ','
-  - U
-  - O
-  - F
-  - J
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: /, h: LCTRL}
-  - {t: I, h: LCTRL}
-  - {t: E, h: LEFT ALT}
-  - {t: A, h: LEFT SHIFT}
-  - {t: H, h: LEFT SHIFT}
-  - Y
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - \
-  - .
-  - ;
-  - ''''
-  - P
-  - K
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   QWETY:
   - CAPS
   - '1'
@@ -134,7 +73,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
+  - PRINTSCREEN
   - TAB
   - Q
   - W
@@ -175,15 +114,137 @@ layers:
   - '`'
   - LGUI
   - LALT
-  - LCTRL
-  - lower
-  - ENTER
   - SPACE
-  - raise
+  - {t: SPACE, h: LCTRL}
+  - lower
+  - SPACE
   - BACKSPACE
+  - raise
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ultility:
+  One_Hand:
+  - {t: ▽, type: trans}
+  - '0'
+  - '9'
+  - '8'
+  - '6'
+  - '5'
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '-'
+  - ','
+  - U
+  - O
+  - F
+  - J
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - KP PLUS
+  - F12
+  - {t: /, h: LCTRL}
+  - {t: I, h: LCTRL}
+  - {t: E, h: LEFT ALT}
+  - {t: A, h: LEFT SHIFT}
+  - {t: H, h: LEFT SHIFT}
+  - Y
+  - KP DIVIDE
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - {t: ▽, type: trans}
+  - \
+  - .
+  - ;
+  - ''''
+  - P
+  - K
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  lower:
+  - '&sys_reset'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - '&sys_reset'
+  - ''
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
+  - '*'
+  - ''
+  - UP ARROW
+  - DOWN
+  - LEFT
+  - RIGHT
+  - F11
+  - ''
+  - {t: '-', h: LCTRL}
+  - {t: '4', h: LEFT ALT}
+  - '5'
+  - {t: '6', h: LEFT SHIFT}
+  - KP DIVIDE
+  - ''
+  - BACKSPACE
+  - ENTER
+  - ESCAPE
+  - DEL
+  - F12
+  - '&bootloader'
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - ''
+  - ''
+  - ''
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - '&bootloader'
+  - '0'
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
   - {t: ▽, type: trans}
   - F6
   - F7
@@ -203,9 +264,9 @@ layers:
   - LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - UP
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
@@ -215,10 +276,10 @@ layers:
   - RIGHT
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_UP'
@@ -236,136 +297,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  lower:
-  - '&sys_reset'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&sys_reset'
-  - ''
-  - KP PLUS
-  - '7'
-  - '8'
-  - '9'
-  - '*'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - CAPS
-  - '-'
-  - '4'
-  - '5'
-  - '6'
-  - KP DIVIDE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - '='
-  - '1'
-  - '2'
-  - '3'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - '0'
-  - ''
-  - {t: ▽, type: trans}
-  - {type: held}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  raise:
-  - ''
-  - ''
-  - F10
-  - F11
-  - F12
-  - ''
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - HOME
-  - F7
-  - F8
-  - F9
-  - PAGE UP
-  - ''
-  - ''
-  - UP
-  - ''
-  - ''
-  - ''
-  - LEFT SHIFT
-  - END
-  - F4
-  - F5
-  - F6
-  - PAGE DOWN
-  - ''
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
-  - F1
-  - F2
-  - F3
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LEFT ALT
-  - LEFT CONTROL
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {type: held}
-  - ''
-  - ''
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -420,11 +359,11 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
 combos:
