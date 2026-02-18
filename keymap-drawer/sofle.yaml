@@ -73,7 +73,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ESCAPE
+  - PRINTSCREEN
   - TAB
   - Q
   - W
@@ -86,7 +86,7 @@ layers:
   - O
   - P
   - '['
-  - LSHFT
+  - LEFT CONTROL
   - A
   - S
   - D
@@ -98,7 +98,7 @@ layers:
   - L
   - ;
   - ''''
-  - ESC
+  - DEL
   - Z
   - X
   - C
@@ -114,74 +114,13 @@ layers:
   - '`'
   - LGUI
   - LALT
+  - raise
+  - LEFT SHIFT
+  - lower
+  - BACKSPACE
   - SPACE
-  - LCTRL
-  - raise
-  - RIGHT SHIFT
-  - {t: SPACE, h: raise}
-  - raise
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  One_Hand:
-  - {t: ▽, type: trans}
-  - '0'
-  - '9'
-  - '8'
-  - '6'
-  - '5'
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '-'
-  - ','
-  - U
-  - O
-  - F
-  - J
-  - '*'
-  - '7'
-  - '8'
-  - '9'
-  - KP PLUS
-  - F12
-  - /
-  - I
-  - E
-  - A
-  - H
-  - Y
-  - KP DIVIDE
-  - '4'
-  - '5'
-  - '6'
-  - '-'
-  - {t: ▽, type: trans}
-  - \
-  - .
-  - ;
-  - ''''
-  - P
-  - K
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - .
-  - '1'
-  - '2'
-  - '3'
-  - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - CAPS
   - {t: ▽, type: trans}
   lower:
   - {t: ▽, type: trans}
