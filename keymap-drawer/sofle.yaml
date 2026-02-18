@@ -105,7 +105,7 @@ layers:
   - V
   - B
   - MUTE
-  - {t: ▽, type: trans}
+  - ''
   - N
   - M
   - ','
