@@ -86,7 +86,7 @@ layers:
   - O
   - P
   - '['
-  - LEFT CONTROL
+  - LEFT ALT
   - A
   - S
   - D
@@ -118,7 +118,7 @@ layers:
   - SPACE
   - LCTRL
   - BACKSPACE
-  - SPACE
+  - raise
   - LEFT ALT
   - CAPS
   - {t: ▽, type: trans}
