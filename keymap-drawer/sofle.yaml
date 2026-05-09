@@ -113,10 +113,10 @@ layers:
   - /
   - '`'
   - LGUI
-  - LALT
-  - raise
-  - LEFT SHIFT
   - lower
+  - LEFT SHIFT
+  - SPACE
+  - LCTRL
   - BACKSPACE
   - SPACE
   - LEFT ALT
