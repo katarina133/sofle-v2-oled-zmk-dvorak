@@ -86,7 +86,7 @@ layers:
   - O
   - P
   - '['
-  - LEFT ALT
+  - LEFT WIN
   - A
   - S
   - D
@@ -112,7 +112,7 @@ layers:
   - .
   - /
   - '`'
-  - LGUI
+  - LEFT ALT
   - lower
   - LEFT SHIFT
   - SPACE
