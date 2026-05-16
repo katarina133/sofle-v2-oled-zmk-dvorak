@@ -159,8 +159,8 @@
             bindings = <
 &none    &none  &none  &none     &none  &none                  &none  &none  &none  &none  &none  &kp ESC
 &kp TAB  &kp Z  &kp X  &kp C     &kp R  &none                  &none  &none  &kp O  &kp Y  &none  &none
-&none    &kp A  &kp S  &kp W     &kp D  &none                  &none  &kp U  &kp J  &kp K  &kp I  &none
-&none    &none  &none  &none     &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none    &kp A  &kp W  &kp S     &kp D  &none                  &none  &kp U  &kp J  &kp K  &kp I  &none
+&none    &none  &none  &none     &kp F  &none  &none    &none  &none  &none  &none  &none  &none  &none
                 &none  &kp LALT  &none  &kp H  &none    &none  &kp L  &none  &none  &to 7
             >;
 
